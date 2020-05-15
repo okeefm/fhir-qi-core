@@ -1,0 +1,30 @@
+{
+  "name": "hl7.fhir.us.qicore",
+  "version": "4.0.1",
+  "canonical": "http://hl7.org/us/qi/qicore",
+  "url": "http://hl7.org/us/qi/qicore",
+  "title": "QI-Core Implementation Guide",
+  "description": "The QI-Core Implementation Guide defines a set of FHIR profiles with extensions and bindings needed to create interoperable, quality-focused applications. The profiles in this implementation guide derive from and extend the US Core profiles to provide a common foundation for building, sharing, and evaluating knowledge artifacts across quality improvement efforts in the US Realm.",
+  "dependencies": {
+    "hl7.fhir.r4.core": "4.0.1",
+    "hl7.fhir.us.core": "3.1.0"
+  },
+  "keywords": [
+    "eCQMs",
+    "Clinical Quality Measures",
+    "Quality Measurement"
+  ],
+  "language": "en",
+  "author": "HL7 International",
+  "maintainers": [
+    {
+      "name": "HL7 Clinical Quality Information Workgroup",
+      "url": "http://www.hl7.org/Special/committees/cqi/index.cfm"
+    },
+    {
+      "name": "Michael O'Keefe",
+      "email": "mokeefe@mitre.org"
+    }
+  ],
+  "license": "CC0-1.0"
+}
