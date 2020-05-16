@@ -27,9 +27,9 @@ Title: "QI Core AllergyIntolerance"
 
 * recordedDate MS
 
-* recorder only Reference(QICorePractitioner|QICorePractitionerRole|QICorePatient|QICoreRelatedPerson)
+* recorder only Reference(QICorePractitioner | QICorePractitionerRole | QICorePatient | QICoreRelatedPerson)
 
-* asserter only Reference(QICorePractitioner|QICorePractitionerRole|QICorePatient|QICoreRelatedPerson)
+* asserter only Reference(QICorePractitioner | QICorePractitionerRole | QICorePatient | QICoreRelatedPerson)
 
 * reaction.manifestation MS
 * reaction.onset MS

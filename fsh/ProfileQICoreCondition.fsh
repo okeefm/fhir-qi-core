@@ -32,8 +32,8 @@ Description: "Profile of Condition for decision support/quality metrics. Defines
 
 * recordedDate MS
 
-* asserter only Reference(QICorePatient|QICorePractitioner|QICoreRelatedPerson)
+* asserter only Reference(QICorePatient | QICorePractitioner | QICoreRelatedPerson)
 
 * stage MS
 * stage.summary MS
-* stage.assessment only Reference(ClinicalImpression|QICoreDiagnosticReportLab|QICoreObservation)
+* stage.assessment only Reference(ClinicalImpression | QICoreDiagnosticReportLab | QICoreObservation)

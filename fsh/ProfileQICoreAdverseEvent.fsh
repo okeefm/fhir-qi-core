@@ -9,7 +9,7 @@ Description: "An adverse event is an untoward occurrence during treatment that s
 
 * event 1..1 MS
 
-* subject only Reference(QICorePatient|Group|QICorePractitioner|QICoreRelatedPerson)
+* subject only Reference(QICorePatient | Group | QICorePractitioner | QICoreRelatedPerson)
 * subject 1..1 MS
 
 * encounter MS
@@ -20,8 +20,8 @@ Description: "An adverse event is an untoward occurrence during treatment that s
 
 * location only Reference(QICoreLocation)
 
-* recorder only Reference(QICorePatient|QICoreRelatedPerson|QICorePractitioner|QICorePractitionerRole)
+* recorder only Reference(QICorePatient | QICoreRelatedPerson | QICorePractitioner | QICorePractitionerRole)
 
 * suspectEntity.instance MS
-* suspectEntity.instance only Reference(QICoreImmunization|QICoreProcedure|QICoreSubstance|QICoreMedication|QICoreMedicationAdministration|QICoreMedicationStatement|QICoreDevice)
+* suspectEntity.instance only Reference(QICoreImmunization | QICoreProcedure | QICoreSubstance | QICoreMedication | QICoreMedicationAdministration | QICoreMedicationStatement | QICoreDevice)
 * suspectEntity.causality 0..1

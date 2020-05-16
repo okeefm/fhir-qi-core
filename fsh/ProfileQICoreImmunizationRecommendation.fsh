@@ -10,5 +10,5 @@ Description: "Profile of ImmunizationRecommendation for decision support/quality
 * authority only Reference(QICoreOrganization)
 
 * recommendation.vaccineCode from USCoreVaccineAdministeredValueSetCvx (extensible)
-* recommendation.supportingImmunization only Reference(QICoreImmunization|QICoreImmunizationEvaluation)
-* recommendation.supportingPatientInformation only Reference(QICoreObservation|QICoreAllergyIntolerance)
+* recommendation.supportingImmunization only Reference(QICoreImmunization | QICoreImmunizationEvaluation)
+* recommendation.supportingPatientInformation only Reference(QICoreObservation | QICoreAllergyIntolerance)

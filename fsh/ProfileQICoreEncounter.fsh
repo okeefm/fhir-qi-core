@@ -34,7 +34,7 @@ Description: "Profile of Encounter for decision support/quality metrics. Defines
 
 * diagnosis MS
 * diagnosis.condition MS
-* diagnosis.condition only Reference(QICoreCondition|QICoreProcedure)
+* diagnosis.condition only Reference(QICoreCondition | QICoreProcedure)
 * diagnosis.use MS
 * diagnosis.rank MS
 

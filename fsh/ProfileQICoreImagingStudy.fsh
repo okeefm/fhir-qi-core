@@ -10,7 +10,7 @@ Description: "Profile of ImagingStudy for decision support/quality metrics. Defi
 * started MS
 
 * basedOn MS
-* basedOn only Reference(QICoreServiceRequest|CarePlan)
+* basedOn only Reference(QICoreServiceRequest | CarePlan)
 
 * referrer only Reference(QICorePractitioner)
 
